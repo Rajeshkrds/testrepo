@@ -29,6 +29,7 @@ public class launch {
 		action.moveToElement(aboutus).click().perform();
 		aboutus.click();
 
+		// printing page title 
 		System.out.println(driver.getTitle());
 
 		String aboutus_expected = "Ethara | About Us";
