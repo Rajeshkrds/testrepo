@@ -36,7 +36,8 @@ public class launch {
 		String aboutus_actual = driver.getTitle();
 		driver.navigate().back();
 		book_now_GP_button.click();
-
+		driver.close();
+		// gitlab commit
 	}
 
 }
